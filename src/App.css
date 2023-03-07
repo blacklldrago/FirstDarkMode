@@ -1,0 +1,197 @@
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+body{
+    overflow-x: hidden;
+}
+@media only screen and (min-width: 360px ) and (max-width: 600px) {
+    .middle{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .center{
+        flex-wrap: wrap;
+    }
+    .center img{
+        width: 250px;
+    }
+    .center h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .center p{
+        text-align: center;
+        width: 230px;
+        margin: auto;
+        font-size: 20px;
+    }
+    .center button{
+        text-align: center;
+        width: 200px;
+        margin-left: 100px;
+    }
+    .like{
+        flex-wrap: wrap;
+    }
+    .for1{
+        height: 560px;
+    }
+    .like div{
+        width: 300px;
+    }
+    .like1{
+        flex-direction: column;
+    }
+    .like2{
+        width: 300px;
+        display: none;
+    }
+    .like p{
+        width: 200px;
+    }
+    .like img{
+        display: none;
+    }
+    .container3 h1{
+        text-align: center;
+    }
+    .container3 p{
+        width: 200px;
+        margin: auto;
+    }
+    .photo img, 
+    .photo p,.photo h1{
+        width: 230px;
+    }
+    .shap{
+        width: 300px;
+        display: block;
+    }
+    .container5 button{
+        width: 150px;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .container4{
+        padding-bottom: 110px;
+    }
+    .container5 p{
+        width: 200px;
+        margin: auto;
+    }
+    .container5 img{
+        width: 270px;
+    }
+    .container6{
+        width: 380px;
+        text-align: center;
+        margin: auto;
+    }
+    .navbar{
+        padding: 0px 13px;
+    }
+    .navbar button{
+        width: 90px;
+        
+    }
+}
+@media only screen and (min-width: 599px ) and (max-width: 1280px) {
+    .middle{
+        display: none;
+    }
+    .center{
+        flex-wrap: wrap;
+    }
+    .center img{
+        width: 250px;
+    }
+    .center h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .center p{
+        text-align: center;
+        width: 230px;
+        margin: auto;
+        font-size: 20px;
+    }
+    .center button{
+        text-align: center;
+        width: 200px;
+        margin-left: 100px;
+    }
+    .like{
+        flex-wrap: wrap;
+    }
+    .for1{
+        height: 560px;
+    }
+    .like div{
+        width: 300px;
+    }
+    .like1{
+        flex-direction: column;
+    }
+    .like2{
+        width: 300px;
+        display: none;
+    }
+    .like p{
+        width: 200px;
+    }
+    .like img{
+        display: none;
+    }
+    .container3 h1{
+        text-align: center;
+    }
+    .container3 p{
+        width: 200px;
+        margin: auto;
+    }
+    .photo img, 
+    .photo p,.photo h1{
+        width: 230px;
+    }
+    .shap{
+        width: 300px;
+        display: block;
+    }
+    .container5 button{
+        width: 150px;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .container4{
+        padding-bottom: 110px;
+    }
+    .container5 p{
+        width: 200px;
+        margin: auto;
+    }
+    .container5 img{
+        width: 270px;
+    }
+    .container6{
+        width: 380px;
+        text-align: center;
+        margin: auto;
+    }
+    .navbar{
+        padding: 0px 13px;
+    }
+    .navbar button{
+        width: 90px;
+        
+    }
+}
